@@ -1,0 +1,85 @@
+.mainpart{
+
+  background-color: #15294b;
+}
+.head
+{
+  font-size:40px;
+  color:white;
+  font-style:bold;
+  margin-left: 3%;
+padding-top:3%;
+}
+.borders
+{
+
+ width:90%;
+ min-height:100vh;
+border:0;
+
+}
+.moviegrids
+{
+  display:flex;
+  flex-wrap:wrap;
+  margin:3%;
+
+}
+
+.input
+{
+  text-align:center;
+  width:70%;
+  padding:10px;
+  margin-top:3%;
+  background-color:transparent;
+  color:white;
+  border:0;
+  border:2px solid gray;
+  border-radius:6px;
+  margin-bottom:3%;
+  outline:none;
+font-size:24px;
+}
+.overdata
+{
+  transform:scaleY(1.2);
+}
+
+.hoverhead
+{
+   box-sizing:border-box;
+  position:absolute;
+  bottom:0;
+  margin:0px;
+   transform: translate(100%, 100%);
+  
+}
+.poster
+{
+  width:100%;
+height:100%;
+cursor:pointer;
+
+ box-sizing:border-box;
+
+
+}
+.card
+{  
+  box-sizing:border-box;
+  width:250px;
+  height:300px;
+position:relative;
+margin-top:3%;
+overflow:hidden;
+}
+.card:hover .hoverhead{
+  transform:translate(0,0);
+  background-color:black;
+  text-align:center;
+  padding:10px;
+  font-size:18px;
+  width:250px;
+  color:white;
+}
